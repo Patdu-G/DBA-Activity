@@ -1,0 +1,33 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: #f3f6f8; color: #1d2b33; }
+nav { background: #12303d; padding: 0 20px; display: flex; flex-wrap: wrap; align-items: center; }
+nav a { color: #cfe8f1; text-decoration: none; padding: 14px 14px; }
+nav a:hover { background: #1c4658; }
+nav .brand { font-weight: bold; color: #fff; margin-right: 12px; }
+main { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+h1 { margin: 0; }
+.toolbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 6px; overflow: hidden; }
+th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e3e9ed; }
+th { background: #e7eef2; }
+.table-wrap { overflow-x: auto; }
+.btn { display: inline-block; padding: 7px 14px; border: 0; border-radius: 4px; background: #1b7a9c; color: #fff; text-decoration: none; cursor: pointer; font-size: 14px; }
+.btn:hover { background: #15627e; }
+.btn.danger { background: #c0392b; }
+.btn.danger:hover { background: #992d22; }
+.btn.gray { background: #7b8a93; }
+.actions { display: flex; gap: 6px; }
+.actions form { margin: 0; }
+.card { background: #fff; padding: 20px; border-radius: 6px; max-width: 520px; }
+label { display: block; margin: 12px 0 4px; font-weight: bold; }
+input, select { width: 100%; padding: 9px; border: 1px solid #b8c4cb; border-radius: 4px; font-size: 14px; }
+.form-actions { margin-top: 18px; display: flex; gap: 8px; }
+.alert { padding: 12px 14px; border-radius: 4px; margin-bottom: 16px; }
+.alert.success { background: #d8f0de; color: #1e5b2f; }
+.alert.error { background: #f8d9d5; color: #7a2118; }
+.alert ul { margin: 0; padding-left: 18px; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; margin-top: 18px; }
+.stat { background: #fff; padding: 20px; border-radius: 6px; text-decoration: none; color: inherit; }
+.stat strong { display: block; font-size: 32px; color: #1b7a9c; }
+.empty { text-align: center; color: #6b7a83; }
+.demo-banner { background: #fff3cd; color: #6b5200; text-align: center; padding: 8px; font-size: 13px; }
